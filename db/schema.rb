@@ -18,5 +18,4 @@ ActiveRecord::Schema.define(version: 2018_10_01_201915) do
     t.string "description"
     t.string "image"
   end
-
 end
