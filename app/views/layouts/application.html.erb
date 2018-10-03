@@ -11,7 +11,7 @@
 
   <body>
 
-      <!-- Create alerte 
+      <!-- Create alerte
       <p class="notice"><%= notice %></p>
        <p class="alert"><%= alert %></p>
      -->
@@ -41,6 +41,11 @@
             <form class="form-inline my-2 my-lg-0">
             </form>
         </div>
+
+        <div class="col-sm order-4">
+          <%= render "/devise/shared/navbar"%>
+        </div>
+
       </nav>
 
     <%= yield %>

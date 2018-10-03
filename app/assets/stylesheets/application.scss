@@ -15,6 +15,7 @@
  */
 // Custom bootstrap variables must be set or imported *before* bootstrap.
 @import "bootstrap";
+@import "devise";
 
 #banner-heading {
     margin-top: 56px;
@@ -37,4 +38,9 @@
 
 .card-inline {
     display: inline-block;
+}
+
+
+#login{
+  list-style-type: none;
 }
