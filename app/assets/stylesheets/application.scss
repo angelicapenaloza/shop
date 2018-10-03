@@ -74,8 +74,16 @@
 
 .card{
   width: 30%;
-  height: 550px;
-  margin:10px;
+  height: 580px;
+  margin: 12px;
+    margin-top: 70px;
+}
+
+.card img {
+  width: 75%;
+  height: 58%;
+  display: block;
+  margin: 0 auto;
 }
 
 .products-rows{
@@ -104,4 +112,3 @@
 .card-inline {
     display: inline-block;
 }
-
