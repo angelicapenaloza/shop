@@ -18,7 +18,7 @@
 
                     <% @products.each do |product| %>
                           <div class="card text-center">
-                                 <img class="card-img-top" src="..." alt="Card image cap">
+                                 <%= image_tag "#{product.image}" %>
                                  <div class="card-body">
                                    <h5 class="card-title"><%= product.nombre%></h5>
                                    <p class="card-text"> <%= product.description%></p>
