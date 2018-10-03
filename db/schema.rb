@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2018_10_02_193233) do
+ActiveRecord::Schema.define(version: 2018_10_03_190514) do
 
   create_table "orders", force: :cascade do |t|
     t.string "order_id"
@@ -23,6 +23,7 @@ ActiveRecord::Schema.define(version: 2018_10_02_193233) do
     t.float "precio"
     t.string "description"
     t.string "image"
+    t.string "product_type"
   end
 
   create_table "users", force: :cascade do |t|
@@ -37,4 +38,5 @@ ActiveRecord::Schema.define(version: 2018_10_02_193233) do
     t.index ["email"], name: "index_users_on_email", unique: true
     t.index ["reset_password_token"], name: "index_users_on_reset_password_token", unique: true
   end
+
 end
