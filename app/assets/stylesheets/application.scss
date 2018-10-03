@@ -15,3 +15,68 @@
  */
 // Custom bootstrap variables must be set or imported *before* bootstrap.
 @import "bootstrap";
+
+.product-container{
+  width: 100vw;
+  height: 100vh;
+}
+
+.product-row{
+  width: 100vw;
+  height: 100vh;
+}
+.product-menu{
+  padding: 0;
+}
+.product-menu-col{
+  background: #e2d8d8;
+  border: 0.2px  solid #e2d8d8;
+  position: fixed;
+  width: 170 px;
+  height: 100%;
+}
+
+.col-items{
+  width: 300px;
+  height: 600px;
+  padding: 0;
+}
+
+#products-item1{
+  border: 0.2px  solid #969696;
+  border-top: 0;
+}
+#products-item2{
+  border: 0.2px  solid #969696;
+  border-left: 0;
+  border-top: 0;
+}
+#products-item3{
+  border: 0.2px  solid #969696;
+  border-left: 0;
+  border-top: 0;
+}
+#products-item4{
+  border: 0.2px  solid #969696;
+  border-top: 0;
+}
+#products-item5{
+  border: 0.2px  solid #969696;
+  border-top: 0;
+  border-left: 0;
+}
+#products-item6{
+  border: 0.2px  solid #969696;
+  border-top: 0;
+  border-left: 0;
+}
+
+.card{
+  width: 30%;
+  height: 550px;
+  margin:10px;
+}
+
+.products-rows{
+  margin-left: 20px;
+}
