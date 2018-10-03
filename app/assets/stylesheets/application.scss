@@ -17,6 +17,72 @@
 @import "bootstrap";
 @import "devise";
 
+
+.product-container{
+  width: 100vw;
+  height: 100vh;
+}
+
+.product-row{
+  width: 100vw;
+  height: 100vh;
+}
+.product-menu{
+  padding: 0;
+}
+.product-menu-col{
+  background: #e2e2e2;
+  border: 0.2px  solid #e2d8d8;
+  position: fixed;
+  width: 170 px;
+  height: 100%;
+}
+
+.col-items{
+  width: 300px;
+  height: 600px;
+  padding: 0;
+}
+
+#products-item1{
+  border: 0.2px  solid #969696;
+  border-top: 0;
+}
+#products-item2{
+  border: 0.2px  solid #969696;
+  border-left: 0;
+  border-top: 0;
+}
+#products-item3{
+  border: 0.2px  solid #969696;
+  border-left: 0;
+  border-top: 0;
+}
+#products-item4{
+  border: 0.2px  solid #969696;
+  border-top: 0;
+}
+#products-item5{
+  border: 0.2px  solid #969696;
+  border-top: 0;
+  border-left: 0;
+}
+#products-item6{
+  border: 0.2px  solid #969696;
+  border-top: 0;
+  border-left: 0;
+}
+
+.card{
+  width: 30%;
+  height: 550px;
+  margin:10px;
+}
+
+.products-rows{
+  margin-left: 20px;
+}
+
 #banner-heading {
     margin-top: 56px;
     background-image: url(http://greekcornerprinting.com/wp-content/uploads/2014/11/Home-page-banner-11.19.jpg);
@@ -44,3 +110,4 @@
 #login{
   list-style-type: none;
 }
+
