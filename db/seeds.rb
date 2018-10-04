@@ -25,3 +25,8 @@ blue= Product.create(nombre: 'blue T-shirt', precio: 29.99, description: 'Really
  image: 'https://ae01.alicdn.com/kf/HTB1ZYrRRVXXXXc8XVXXq6xXFXXXH/EnjoytheSpirit-Cotton-T-shirt-No-Printing-Plain-T-Shirt-T-Shirt-Men-with-No-Logo-Printing.jpg_640x640.jpg',
  product_type: 't-shirt'
 )
+
+yellow = Product.create(nombre: 'yellow T-shirt', precio: 29.99, description: 'Relly cool yellow t-shirt',
+ image: 'https://ae01.alicdn.com/kf/HTB1ZYrRRVXXXXc8XVXXq6xXFXXXH/EnjoytheSpirit-Cotton-T-shirt-No-Printing-Plain-T-Shirt-T-Shirt-Men-with-No-Logo-Printing.jpg_640x640.jpg',
+ product_type: 't-shirt'
+)
